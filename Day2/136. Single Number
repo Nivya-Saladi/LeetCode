@@ -1,0 +1,7 @@
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        sn = 0
+        for x in nums:
+            sn ^= x
+        return sn
+        
