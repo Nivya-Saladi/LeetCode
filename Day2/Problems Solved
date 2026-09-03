@@ -1,0 +1,30 @@
+33. Search in Rotated Sorted Array
+
+There is an integer array nums sorted in ascending order (with distinct values).
+Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2].
+Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.
+You must write an algorithm with O(log n) runtime complexity.
+
+
+136. Single Number
+
+Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+
+
+704. Binary Search
+
+Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
+You must write an algorithm with O(log n) runtime complexity.
+
+
+3876. Construct Uniform Parity Array II
+
+You are given an array nums1 of n distinct integers.
+You want to construct another array nums2 of length n such that the elements in nums2 are either all odd or all even.
+For each index i, you must choose exactly one of the following (in any order):
+nums2[i] = nums1[i]​​​​​​​
+nums2[i] = nums1[i] - nums1[j], for an index j != i, such that nums1[i] - nums1[j] >= 1
+Return true if it is possible to construct such an array, otherwise return false.
+
+
